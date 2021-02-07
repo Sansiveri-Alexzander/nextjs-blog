@@ -50,3 +50,25 @@
   .lightText {
     color: #666;
   }
+
+  .subText {
+    text-align: center;
+    font-size: 15px;
+  }
+
+  .newPage {
+    font-size: 1.2rem;
+    line-height: 1.5;  
+    justify-content: center;   
+    text-align: center;
+  }
+
+  .hobbyImage {
+    width: 450px;
+    height: auto;
+    padding: 2px;
+    border: 3px solid #1c87c9;
+    border-radius: 800px;
+    margin-left: auto;
+    margin-right: auto;
+  }

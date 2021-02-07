@@ -9,14 +9,23 @@ export default function Home() {
         <title>{siteTitle}</title>
       </Head>
       <section className={utilStyles.headingMd}>
-        <p> Hello, I go by Sasha. I enjoy playing soccer and chess in my free time. I know Russian and English fluently</p>
-        <p>
-          (This is a sample website - you’ll be building a site like this on{' '}
-          <a href="https://nextjs.org/learn">our Next.js tutorial</a>.)
+        <p> Hello, I go by Sasha. I am a junior attending Newton North High School. </p>
+        <p className={utilStyles.subText}>
+          (This is my first time making a website using ReactJS.)
         </p>
-        <a href="/posts/first-post">
-          My First Post
+        <p><u>Get to know me a bit better by clicking on a few of the links below:</u></p>
+      </section>
+      <section className={utilStyles.newPage}>
+        <p>My {" "}
+        <a  href="/posts/hobbies">
+          Hobbies
         </a>
+        </p>
+        <p>My {" "}
+        <a  href="/posts/accomplishments">
+          Accomplishments/Skills
+        </a>
+        </p>
       </section>
     </Layout>
   )
